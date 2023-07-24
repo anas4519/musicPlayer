@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Libre+Caslon+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Libre+Caslon+Text&family=Raleway&display=swap');
+body{
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family:'Raleway', sans-serif;;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 61px;
+    background-color: black;
+    color: beige;
+    
+}
+nav ul li{
+    padding: 0 12px;
+    cursor: pointer;
+}
+.brand img{
+    width: 55px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.container{
+    min-height: 75.4vh;
+    background-color: black;
+    color: beige;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width:70%;
+    border-radius: 12px;
+    padding: 25px;
+    background-image: url(bg69.jpg);
+}
+
+.bottom{
+    position:sticky;
+    height:75px;
+    background-color: black;
+    color:beige;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top:10px;
+    align-items: center;
+    
+    
+}
+.icons i{
+    cursor:pointer;
+    color: beige;
+}
+
+#progressBar{
+    width:60vw;
+    align-items: center;
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 65px;
+}
+
+.songItem{
+    height: 45px;
+    display: flex;
+    background-color: beige;
+    
+    color: BLACK;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    
+}
+.songItem img{
+    width: 45px;
+    margin: 0 15px;
+    border-radius: 28px;
+    
+}
+.timestamp{
+    margin: 0 15px
+}
+.timestamp i{
+    cursor:pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 16vw;
+    font-family: 'Raleway', sans-serif;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+}
